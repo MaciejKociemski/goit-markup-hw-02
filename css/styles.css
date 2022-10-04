@@ -2,6 +2,54 @@
 section {background-color: grey;}
 .three {background-color: black;color: white}*/
 
-body{font-family:'Roboto','Raleway',sans-serif;color:#212121;font: weight 700px;}
+body{font-family:'Roboto','Raleway',sans-serif;color:#212121;font: weight 700px;background-color: #FFFFFF;}
+/*naglowek h1*/
+h1{font-size: 44px;text-align: center;}
+
+/*teksty w naglowkach h3*/
+h3{font-size: 14px;line-height: 24px;}
+
+.main-button 
+{background-color: #2196F3;
+    color:white;
+    padding: 1%;
+    border-radius: 10%;
+font-size: 16px;}
+.button {font-size: 16px;
+    padding: 1%;
+    color:#212121;
+    background-color: #F5F4FA;
+    border-radius: 10%;}
+
 /*czcionka z adresu bez pochylenia*/
 .address{font-style: normal;}
+
+.link{text-decoration:none;}
+
+/*logo WEB Studio , czcionka i wielkosc z Figmy*/
+
+.logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    color: var(--studio-accent);
+    font-weight: var(--main-font-weight);
+    line-height: 1.19;
+}
+/* klasa dla odmiennego koloru w logo */
+.accent {color: #2196F3}
+
+/*klasy dla navigacji do stron*/
+.nav-link-agencja{color: #2196F3;text-decoration-line: none;}
+.nav-link-portfolio,
+.nav-link-kontakt {color:#212121;
+text-decoration-line: none;font-size: 14px;}
+
+/**/
+.link-mail {color:#2196F3;text-decoration: none;}
+.link-phone
+{color:#212121;text-decoration: none;}
+.link-mail,.link-phone{font-size: 14px;}
+
+.address{font-size: 14px;}
+
+ul {list-style-type: none;}
