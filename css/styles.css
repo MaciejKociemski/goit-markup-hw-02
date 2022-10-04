@@ -8,8 +8,20 @@ body{font-family:'Roboto','Raleway',sans-serif;color:#212121;font: weight 700px;
 
 /*teksty w naglowkach h3*/
 h3{font-size: 14px;line-height: 24px;}
+.main-button1
+{background-color: #2196F3;
+    color: white;
+    font-size: 16px;
+    font-weight: var(--main-font-weight);
+    line-height: 1.88;
+    letter-spacing: var(--second-letter-spacing);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    
 
-.main-button 
+}
+.main-button
 {background-color: #2196F3;
     color:white;
     font-size: 16px;
@@ -19,6 +31,7 @@ h3{font-size: 14px;line-height: 24px;}
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+    
     }
 
 .button {font-size: 16px;
@@ -50,9 +63,9 @@ h3{font-size: 14px;line-height: 24px;}
 .accent {color: #2196F3}
 
 /*klasy dla navigacji do stron*/
-.nav-link-agencja{color: #2196F3;text-decoration-line: none;}
-.nav-link-portfolio,
-.nav-link-kontakt {color:#212121;
+.link-agencja{color: #2196F3;text-decoration-line: none;}
+.link-portfolio,
+.link-kontakt {color:#212121;
 text-decoration-line: none;font-size: 14px;}
 
 /**/
@@ -72,3 +85,15 @@ ul {list-style-type: none;}
     font-size: 44px;
     text-align: center;
     padding:10%;}
+/*box shadow: x y blur spread color*/
+    figure {background-color:#ffffff;
+        
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 0px 0px #eeeeee, 0px 1px 1px #eeeeee, 0px 2px 1px #eeeeee;
+        width: 370px;
+    }
+    
+    figure {display:inline-block;text-align: left;padding: 1%;}
+
+    .h2-title{font-size: 36px;text-align: center;font-style:'Roboto';color:#212121;}
+
