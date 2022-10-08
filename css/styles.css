@@ -1,86 +1,158 @@
-/*start css do zadania nr 2
-section {background-color: grey;}
-.three {background-color: black;color: white}*/
-
-body{font-family:'Roboto','Raleway',sans-serif;color:#212121;font: weight 700px;background-color: #FFFFFF;}
-/*naglowek h1*/
-/*h1{font-size: 44px;text-align: center;}*/
-
-/*teksty w naglowkach h3*/
-h3{font-size: 14px;line-height: 24px;}
-
-
-.main-button
-{background-color: #2196F3;
-    color:white;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: var(--second-letter-spacing);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    
-    }
-
-.button {font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: var(--second-letter-spacing);
-    color:#212121;
-    background-color: #F5F4FA;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
-    border-radius: 4px;
-    border: none;
+body {
+    font-family:'Roboto','Raeway',sans-serif;
+    background-color: #FFFFFF;
+    color: #000000
 }
-
-/*czcionka z adresu bez pochylenia*/
-.address{font-style: normal;}
-
-/*usuniecie linii z linków*/
-.link{text-decoration:none;}
-
-/*logo WEB Studio , czcionka i wielkosc z Figmy*/
 
 .logo {
     font-family: 'Raleway';
     font-size: 26px;
-    color: var(--studio--blueaccent);
-    /* font-weight: var(--main-font-weight); */
-    line-height: 1.19;
+    color: black;
+    text-decoration: none;   
 }
-/* klasa dla odmiennego koloru w logo */
-.blueaccent {color: #2196F3}
 
-/*klasy dla navigacji do stron*/
-.link-agencja{color: #2196F3;text-decoration-line: none;}
-.link-portfolio,
-.link-kontakt {color:#212121;
-text-decoration-line: none;font-size: 14px;}
+.logo:hover{
+    text-decoration: underline;
+    text-decoration-color: #2196F3
+}
 
-/**/
-.link-mail {color:#2196F3;text-decoration: none;}
-.link-phone
-{color:#212121;text-decoration: none;}
-.link-mail,.link-phone{font-size: 14px;}
+.blue{
+    color: #2196F3;
+}
 
-.address{font-size: 14px;}
+.blueaccent {
+    color: #2196F3;
+}
 
-ul {list-style-type: none;}
+
+.link {
+    text-decoration: none;
+}
+
+.link-agencja{
+    color: #2196F3;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+
+.link-portfolio{color: #212121;
+    text-decoration-line: none;
+    font-size: 14px;}
+
+.link-kontakt {
+    color: #212121;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+
+.link-agencja:hover,
+.link-portfolio:hover,
+.link-kontakt:hover {
+    color: #2196F3;
+    text-decoration-line: underline;
+}
+
+.loremipsum-header{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.loremipsum-text {
+        font-size: 14px;line-height: 24px;
+    }
+
+.button {
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.88;
+    color: #212121;
+    background-color: #F5F4FA;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+}
+.main-button
+{background-color: #2196F3;
+    color:white;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    
+    }
+.button:hover,
+.main-button:hover {
+    background-color: #2196F3;
+    color:white;
+}
+
+
+.h2-title {
+    font-size: 36px;
+    text-align: center;
+    font-style: 'Roboto';
+    color: #212121;
+}
+
+/*czcionka z adresu bez pochylenia*/
+.address{
+    font-style: normal;}
+
+
+.link-mail {
+    color:#2196F3;
+    text-decoration: none;
+}
+
+.link-phone{
+    color:#212121;
+    text-decoration: none;
+}
+
+.link-mail,.link-phone{
+    font-size: 14px;
+}
+
+.address{
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
 
 /*sekcja 1 czarne tlo naglowka i efektywne rozwiaznaia .... */
 .naglowek{background-color:#2F303A;}
+
+
 .naglowek-tytul{
     color:#F5F4FA; 
     font-size: 44px;
     text-align: center;
-    padding:10%;}
-/*box shadow: x y blur spread color*/
-    figure {background-color:#ffffff;
+    letter-spacing: 6px;
+    padding:15%;
+vertical-align: center
+;}
+
+   .figure-portfolio {
+    background-color:#ffffff;
         border-radius: 0px 0px 4px 4px;
-        box-shadow: 0px 1px 0px 0px #eeeeee, 0px 1px 1px #eeeeee, 0px 2px 1px #eeeeee;
+        box-shadow: 1px 1px 0px 0px #eeeeee, 0px 1px 1px #eeeeee, 0px 2px 1px #eeeeee;
         width: 370px;
     }
+    .our-team-people {
+            background-color: #ffffff;
+            border-radius: 0px 4px 4px 0px;
+            box-shadow: 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee;
+            width: 270px;
+        padding: 1px;}
 
-    figure {display:inline-block;text-align: left;padding: 1px;}
-
-    .h2-title{font-size: 36px;text-align: center;font-style:'Roboto';color:#212121;}
-
+        .portfolio-images {
+        background-color: #ffffff;
+            border-radius: 0px 4px 4px 0px;
+            box-shadow: 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee;
+            width: 370px;
+            padding: 0px;
+        }
