@@ -51,7 +51,10 @@ body {
     color: #2196F3;
     text-decoration-line: underline;
 }
+.footer-menu:hover, .link-mail:hover,.link-phone:hover{
+    color: #2196F3;
 
+}
 .loremipsum-header{
     font-size: 14px;
     line-height: 24px;
@@ -62,7 +65,7 @@ body {
     }
 
 .buttons{
-   display: flex;
+   display: flex;cursor: pointer;
    
 }
 
@@ -72,9 +75,10 @@ body {
     line-height: 1.88;
     color: #212121;
     background-color: #F5F4FA;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 4px rgba(6, 5, 5, 0.15);
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 .main-button
 {background-color: #2196F3;
@@ -101,27 +105,27 @@ body {
     color: #212121;
 }
 
-/*czcionka z adresu bez pochylenia*/
-.address{
-    font-style: normal;}
-
-
+/* 
 .link-mail {
     color:#2196F3;
     text-decoration: none;
-}
+} */
 
 .link-phone{
-    color:#212121;
+    color: #2196F3;
     text-decoration: none;
 }
 
 .link-mail,.link-phone{
     font-size: 14px;
+    text-decoration: none;
+    color:#000000;
 }
 
 .address{
     font-size: 14px;
+    font-style: normal;
+    color: #000000;
 }
 
 ul {
@@ -163,3 +167,6 @@ vertical-align: center
         }
 
         .footer-portfolio{text-decoration: underline;}
+        /* .portfolio-images-lista{display: center;
+             */
+        
