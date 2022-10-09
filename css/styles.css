@@ -65,8 +65,8 @@ font-weight: 500;}
 .link-agencja:hover,
 .link-portfolio:hover,
 .link-kontakt:hover {
-    color: var(--blue);
-    text-decoration-line: underline;
+    /* color: var(--blue); */
+    text-decoration-line: underline; text-decoration-color: var(--blue);
 }
 .footer-menu{
     background-color:var(--black);
