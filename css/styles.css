@@ -51,6 +51,7 @@ body {
     color: #2196F3;
     text-decoration-line: underline;
 }
+
 .footer-menu:hover, .link-mail:hover,.link-phone:hover{
     color: #2196F3;
 
@@ -65,8 +66,7 @@ body {
     }
 
 .buttons{
-   display: flex;cursor: pointer;
-   
+   display: flex;cursor: pointer; 
 }
 
 .button {
@@ -89,10 +89,10 @@ body {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    
     }
+    
 .button:hover,
-.main-button:hover {
+.main-button:hover{
     background-color: #2196F3;
     color:white;
 }
@@ -115,6 +115,7 @@ body {
     color: #2196F3;
     text-decoration: none;
 }
+
 
 .link-mail,.link-phone{
     font-size: 14px;
