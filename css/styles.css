@@ -26,8 +26,8 @@ body {
     text-decoration: none;   
 }
 
-.logo:hover{
-    text-decoration: underline;
+.logo:hover, .logo:focus {
+    /* text-decoration: underline; */
     text-decoration-color: var(--blue)
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .link-agencja{
-    color: var(--blue);
+    color: var(--black);
     text-decoration-line: none;
     font-size: 14px;
     font-weight: 500;
@@ -62,18 +62,18 @@ font-weight: 500;}
     font-weight: 500;
 }
 
-.link-agencja:hover,
-.link-portfolio:hover,
-.link-kontakt:hover {
-    /* color: var(--blue); */
-    text-decoration-line: underline; text-decoration-color: var(--blue);
+.link-agencja:hover, .link-agencja:focus,
+.link-portfolio:hover, .link-portfolio:focus,
+.link-kontakt:hover,.link-kontakt:focus {
+    color: var(--blue);
+     text-decoration-color: var(--blue);
 }
 
 .footer-menu{
     background-color:var(--black);
     color:var(--white);}
 
-.link-mail:hover,.link-phone:hover{
+.link-mail:hover,.link-mail:focus, .link-phone:hover, .link-phone:focus{
     color:var(--blue);}
 
 .link-mail-header {color: var(--grey);text-decoration: none;font-size: 14px;font-weight: 500;}
@@ -81,9 +81,9 @@ font-weight: 500;}
     font-weight: 500;
 text-decoration-line: none;}
 
-.link-mail-header:hover{color: var(--blue)}
-.link-phone-header:hover{color: var(--blue)}
-.loremipsum-header{
+.link-mail-header:hover, .link-mail-header:focus {color: var(--blue)}
+.link-phone-header:hover, .link-phone-header:focus {color: var(--blue)}
+.loremipsum-header {
     color: var(--black);
     font-size: 14px;
     font-weight: 700;
@@ -125,8 +125,8 @@ text-decoration-line: none;}
     border: none;
     }
     
-.button:hover,
-.main-button:hover{
+.button:hover, .button:focus,
+.main-button:hover,.main-button:focus {
     background-color:var(--blue);
     color:white;
 }
